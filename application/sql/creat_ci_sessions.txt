@@ -1,0 +1,15 @@
+
+CREATE DATABASE MYCI ;
+show databases;
+USE MYCI;
+
+CREAT TABLE 'ci_sessions' (
+	'id' varchar(128) NOT NULL,
+	'ip_address' varchar(45) NOT NULL,
+	'timestamp' int(10) unsigned NOT NULL DEFAULT '0',
+	'data' blob NOT NULL,
+	PRIMARY KEY ('id')
+) ENGINE=InnoDB DEFAULT CAHRSET=utf8;
+
+
+DESCRIBE ci_sessions;
