@@ -1,6 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+/*
+git test  주석수정
+*/
 /*
 	/controlloers/Ex17_tumbnail.php
 	썸네일 만들기
